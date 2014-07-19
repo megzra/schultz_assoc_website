@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+	/*
+	 ==========================================
+	 MAIN STYLES
+	 ==========================================
+	*/
+	
+	body {
+		font-family: arial, sans-serif;
+	}
+	
+	
+	
+	
+	/*
+	 ==========================================
+	 TYPE
+	 ==========================================
+	*/
+	
+	
+	h5 {
+		text-transform: uppercase;
+		font-family: "Josefin", arial, sans-serif;
+		font-weight: 100;
+		letter-spacing: .1em;
+		font-size: small;
+	}
+	
+	.mid_content h3 {
+		text-transform: uppercase;
+		font-family: "Josefin", arial, sans-serif;
+		font-weight: 600;
+		font-size: 1em;
+		background-color: #fff;
+		padding: 2px 2px ;
+	}
+	
+	/*
+	 ==========================================
+	 LINKS
+	 ==========================================
+	*/
+	
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	
+	a:hover {
+		color: rgba(247,92,8,.8);
+		text-decoration: underline;
+	}
+	
+	/*
+	 ==========================================
+	 HEADER
+	 ==========================================
+	*/
+	
+	header {
+		width: 992px;
+		height: 85px;
+		margin: auto;
+		padding-top: 15px;
+		position: relative;
+	}
+	
+	.logo {
+		font-family: "Josefin", sans-serif;
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: 1.7em;
+		letter-spacing: .1em;
+		width: 40%;
+		padding-top: 20px;
+	}
+	
+	.archit {
+		letter-spacing: .28em;
+		font-weight: 600;
+		font-size: .9em;
+	}
+	
+	
+	/*
+	 ==========================================
+	 FORM
+	 ==========================================
+	*/
+	
+	.subscribe {
+		width: 40%;
+		position: absolute;
+		right: 0;
+		top: 30px;
+	}
+	
+	input[type="email"] {
+		width: 190px;
+	}
+	
+	
+	label[for="email"]{
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: .6em
+	}
+	/*
+	 ==========================================
+	 NAV
+	 ==========================================
+	*/
+	
+	nav {
+		text-align: right;
+		font-size: .9em;
+		font-weight: 200;
+		text-transform: uppercase;
+		width: 40%;
+		
+	}
+	
+	ul {
+		border: none;
+		position: absolute;
+		right: 0;
+		top: 73px;
+
+	}
+	
+	li {
+		display: inline;
+		padding: 8px;
+	}
+	
+	
+	/*
+	 ==========================================
+	 CONTENT
+	 ==========================================
+	*/
+	
+	.mid_content_img {
+		background: url('images/dining_room.jpg') no-repeat;
+		width: 992px;
+		height: 480px;
+		background-color: #dedede;
+		margin: 20px auto;
+		
+	}
+	
+	.mid_content_text {
+		background-color: rgba(247,92,8,.7);
+		width: 250px;
+		height: 30px;
+		position: absolute;
+		bottom: 320px;
+		right: 182px;
+		text-align: center;
+		line-height: 30px;
+		color: #fff;
+	}
+	
+	
+	
+	.mid_content {
+		width: 992px;
+		margin: 50px auto;
+	}
+	
+	
+	.left {
+		display: inline-block;
+		width: 31%;
+		height: 170px;
+		margin-right: 1.5%;
+		background-image: url('images/living.jpg');
+	}
+	
+	
+	.center {
+		display: inline-block;
+		width: 31%;
+		height: 170px;
+		margin: 0 1.5%;
+		background-image: url('images/outside.jpg');
+	}
+	
+	
+	.right {
+		display: inline-block;
+		width: 31%;
+		height: 170px;
+		margin-left: 1.5%;
+		background-image: url('images/hill.jpg');
+	}
+	
+	
+	/*
+	 ==========================================
+	 FOOTER
+	 ==========================================
+	*/
+	
+	footer {
+		width: 100%;
+		height: 30px;
+		position: fixed;
+		background-color: rgba(247,92,8,.8);
+		text-align: center;
+		font-weight: 100;
+		text-transform: uppercase;
+		line-height: 30px;
+		font-size: xx-small;
+		word-spacing: .2em;
+		color: #fff;
+		bottom: 0;
+	}
